@@ -10,7 +10,7 @@ source:
   sha256: d654670c145212ed3ce0699a988b9f83ebf3e7c44ed74d4d0772dc95ad46b38e
 
 build:
-  number: 5
+  number: 6
   run_exports:
     - {{ pin_subpackage("aws-c-sdkutils", max_pin="x.x.x") }}
 
