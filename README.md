@@ -1,11 +1,11 @@
-About aws-c-sdkutils
-====================
+About aws-c-sdkutils-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-c-sdkutils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/awslabs/aws-c-sdkutils
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-c-sdkutils-feedstock/blob/main/LICENSE.txt)
 
 Summary: This is a module for the AWS SDK for C.
 
