@@ -1,5 +1,5 @@
 {% set name = "aws-c-sdkutils" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/awslabs/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: f21d770e6a41e82e658a92607a1df3c13bf905071843b8d6dfaaefc784102cd6
+  sha256: 7bf94085766481bcb4061dd4918ef5e711e85a4fdb28fce4ceae3f6ce7e5f83b
 
 build:
   number: 0
