@@ -13,7 +13,7 @@ source:
   sha256: 5a0489d508341b84eea556e351717bc33524d3dfd6207ee3aba6068994ea6018
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -29,14 +29,13 @@ requirements:
 tests:
   - script:
       - if: unix
-        then: test -f $PREFIX/lib/libaws-c-sdkutils${SHLIB_EXT}
-      - if: unix
-        then: test -f $PREFIX/include/aws/sdkutils/sdkutils.h
+        then:
+          - test -f $PREFIX/lib/libaws-c-sdkutils${SHLIB_EXT}
+          - test -f $PREFIX/include/aws/sdkutils/sdkutils.h
       - if: win
-        then: if not exist %LIBRARY_INC%\\aws\\sdkutils\\sdkutils.h exit 1
-      - if: win
-        then: if not exist %PREFIX%\\Library\\bin\\aws-c-sdkutils.dll exit 1
-
+        then:
+          - if not exist %LIBRARY_INC%\\aws\\sdkutils\\sdkutils.h exit 1
+          - if not exist %PREFIX%\\Library\\bin\\aws-c-sdkutils.dll exit 1
 about:
   license: Apache-2.0
   license_file: LICENSE
