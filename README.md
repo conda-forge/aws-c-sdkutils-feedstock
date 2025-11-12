@@ -9,6 +9,8 @@ Package license: Apache-2.0
 
 Summary: This is a module for the AWS SDK for C.
 
+Development: https://github.com/awslabs/aws-c-sdkutils
+
 Current build status
 ====================
 

@@ -13,7 +13,7 @@ source:
   sha256: 493cbed4fa57e0d4622fcff044e11305eb4fc12445f32c8861025597939175fc
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -41,6 +41,7 @@ about:
   license_file: LICENSE
   summary: This is a module for the AWS SDK for C.
   homepage: https://github.com/awslabs/aws-c-sdkutils
+  repository: https://github.com/awslabs/aws-c-sdkutils
 
 extra:
   recipe-maintainers:
